@@ -1,0 +1,32 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+:root {
+  --size: 16px;
+  --clr-black: #101010;
+  --clr-white: #ffffff;
+  --clr-primary: #FDB713;
+  --clr-primary-1: #e9a300;
+  --clr-grey-1: #fafafa;
+  --clr-grey-2: #f0f0f1;
+  --clr-grey-3: #dadada;
+  --clr-grey-4: #adadad;
+  --clr-grey-5: #888888;
+  --clr-grey: grey;
+  --trn-linear: all .2s linear;
+  --trn-ease: all .2s ease-in-out;
+}
+
+html {
+  font-size: var(--size);
+}
+
+body {
+  font-size: 100%;
+}
+
+a:focus {
+  box-shadow: none;
+}

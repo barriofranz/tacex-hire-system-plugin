@@ -1,0 +1,354 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .md-container {
+     width: 100%;
+     display: table;
+     max-width: 700px;
+     margin: auto;
+}
+
+.md-row {
+    width: 100%;
+    display: table;
+}
+
+
+.md-row1 {
+    width: 100%;
+    display: table;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.md-row2 {
+    padding: 15px 0px;
+    margin: auto;
+}
+
+.md-row3 {
+    /* max-width: 900px; */
+    margin: auto;
+}
+
+div[class*="md-col-xs-"]{
+    /* padding: 0 15px; */
+}
+
+.md-tacex-page-title {
+    color: #fff;
+    background: #000;
+    text-align: center;
+    font-size: 26px;
+    padding: 15px 0;
+    height: fit-content;
+    margin: 25px 0;
+    letter-spacing: 1px;
+}
+
+
+.md-tacex-page-title2 {
+    color: #000;
+    background: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 15px 0;
+    height: fit-content;
+    margin: 25px 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.md-container input.md-postcode-input {
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 22px;
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+}
+
+.md-img-container {
+    margin: 40px auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.md-img-container img{
+    width: 100%;
+}
+
+.radio-wrapper {
+    width: 100%;
+    border: 1px solid #CACACA;
+    padding: 20px 40px;
+    background: #F5F5F5;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.radio-wrapper p {
+    margin-left: 45px;
+    font-size: 16px;
+    font-style: italic;
+    color: #888;
+}
+
+.order-type-radio {
+    -ms-transform: scale(2.5); /* IE 9 */
+    -webkit-transform: scale(2.5); /* Chrome, Safari, Opera */
+    transform: scale(2.5);
+    margin-right: 25px;
+}
+
+.md-row-section {
+    border-top: 5px solid #FDB713;
+}
+
+.md-item-select {
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 22px;
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+}
+
+@media (min-width: 576px) {
+    .md-col-xs-1 {
+        display: inline-block;
+        width: 8.3%;
+    }
+    .md-col-xs-2 {
+        display: inline-block;
+        width: 16.6%;
+    }
+    .md-col-xs-3 {
+        width: 25%;
+        display: inline-block;
+    }
+    .md-col-xs-4 {
+        width: 33.3%;
+        display: inline-block;
+    }
+    .md-col-xs-5 {
+        width: 41.6%;
+        display: inline-block;
+    }
+    .md-col-xs-6 {
+        width: 50%;
+        display: inline-block;
+    }
+    .md-col-xs-7 {
+        width: 58.3%;
+        display: inline-block;
+    }
+    .md-col-xs-8 {
+        width: 66.6%;
+        display: inline-block;
+    }
+    .md-col-xs-9 {
+        width: 75%;
+        display: inline-block;
+    }
+    .md-col-xs-10 {
+        width: 83.3%;
+        display: inline-block;
+    }
+    .md-col-xs-11 {
+        width: 91.6%;
+        display: inline-block;
+    }
+    .md-col-xs-12 {
+        width: 100%;
+        display: inline-block;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .md-col-sm-1 {
+        display: inline-block;
+        width: 8.3%;
+    }
+    .md-col-sm-2 {
+        display: inline-block;
+        width: 16.6%;
+    }
+    .md-col-sm-3 {
+        width: 25%;
+        display: inline-block;
+    }
+    .md-col-sm-4 {
+        width: 33.3%;
+        display: inline-block;
+    }
+    .md-col-sm-5 {
+        width: 41.6%;
+        display: inline-block;
+    }
+    .md-col-sm-6 {
+        width: 50%;
+        display: inline-block;
+    }
+    .md-col-sm-7 {
+        width: 58.3%;
+        display: inline-block;
+    }
+    .md-col-sm-8 {
+        width: 66.6%;
+        display: inline-block;
+    }
+    .md-col-sm-9 {
+        width: 75%;
+        display: inline-block;
+    }
+    .md-col-sm-10 {
+        width: 83.3%;
+        display: inline-block;
+    }
+    .md-col-sm-11 {
+        width: 91.6%;
+        display: inline-block;
+    }
+    .md-col-sm-12 {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    /* .md .md-product-div .button.btn-add-to-cart {
+        width: auto;
+    }
+    .md .md-product-div .button.btn-black-outline {
+        width: auto;
+    } */
+
+    .md .woocommerce-LoopProduct-link .price del {
+        color: #666 !important;
+        font-size: 16px !important;
+        margin: 0 !important;
+    }
+    .md .woocommerce-LoopProduct-link .price ins {
+        font-size: 16px !important;
+        margin: 0 !important;
+    }
+
+
+    .md h4.md-product-name {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .md .my-library-content .md-product-div .button {
+        /* font-size: 12px; */
+    }
+
+    .md-col-md-1 {
+        display: inline-block;
+        width: 8.3%;
+    }
+    .md-col-md-2 {
+        display: inline-block;
+        width: 16.6%;
+    }
+    .md-col-md-3 {
+        width: 25%;
+        display: inline-block;
+    }
+    .md-col-md-4 {
+        width: 33.3%;
+        display: inline-block;
+    }
+    .md-col-md-5 {
+        width: 41.6%;
+        display: inline-block;
+    }
+    .md-col-md-6 {
+        width: 50%;
+        display: inline-block;
+    }
+    .md-col-md-7 {
+        width: 58.3%;
+        display: inline-block;
+    }
+    .md-col-md-8 {
+        width: 66.6%;
+        display: inline-block;
+    }
+    .md-col-md-9 {
+        width: 75%;
+        display: inline-block;
+    }
+    .md-col-md-10 {
+        width: 83.3%;
+        display: inline-block;
+    }
+    .md-col-md-11 {
+        width: 91.6%;
+        display: inline-block;
+    }
+    .md-col-md-12 {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .md-col-lg-1 {
+        display: inline-block;
+        width: 8.3%;
+    }
+    .md-col-lg-2 {
+        display: inline-block;
+        width: 16.6%;
+    }
+    .md-col-lg-3 {
+        width: 25%;
+        display: inline-block;
+    }
+    .md-col-lg-4 {
+        width: 33.3%;
+        display: inline-block;
+    }
+    .md-col-lg-5 {
+        width: 41.6%;
+        display: inline-block;
+    }
+    .md-col-lg-6 {
+        width: 50%;
+        display: inline-block;
+    }
+    .md-col-lg-7 {
+        width: 58.3%;
+        display: inline-block;
+    }
+    .md-col-lg-8 {
+        width: 66.6%;
+        display: inline-block;
+    }
+    .md-col-lg-9 {
+        width: 75%;
+        display: inline-block;
+    }
+    .md-col-lg-10 {
+        width: 83.3%;
+        display: inline-block;
+    }
+    .md-col-lg-11 {
+        width: 91.6%;
+        display: inline-block;
+    }
+    .md-col-lg-12 {
+        width: 100%;
+        display: inline-block;
+    }
+}

@@ -1,0 +1,66 @@
+.thsp_page.container {
+  width: 95%;
+}
+
+.title_area,
+.description_area {
+  border: 1px solid #ccc;
+  padding: .75em 1em;
+}
+
+.info_item:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.description_area {
+  margin: .5rem 0;
+}
+
+.info_card {
+  max-width: 100%;
+}
+
+.input-field label {
+  pointer-events: none;
+}
+
+#info_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+#info_form .col {
+  border: 1px solid var(--clr-grey-4);
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 2rem 2rem;
+}
+
+.thsp_page .brand {
+  background-color: var(--clr-primary-1);
+  transition: var(--trn-ease);
+}
+
+.thsp_page .brand {
+  background-color: var(--clr-primary);
+}
+
+.id_to_delete.brand {
+  background-color: transparent;
+}
+
+.id_to_delete.brand svg {
+  color: var(--clr-grey-5);
+  pointer-events: none;
+  transition: var(--trn-ease);
+}
+
+.id_to_delete.brand:hover svg {
+  color: var(--clr-black);
+}
+
+#form_error {
+  margin-bottom: 1rem;
+}
